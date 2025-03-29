@@ -1,0 +1,64 @@
+2025-03-29 00:29:30,996 - Setting up FunctionFinder...
+2025-03-29 00:29:31,005 - Use pytorch device_name: cpu
+2025-03-29 00:29:31,005 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-29 00:29:35,905 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-29 00:29:36,201 - Refreshing vector store...
+2025-03-29 00:29:36,237 - Delete of nonexisting embedding ID: run_shell_command
+2025-03-29 00:29:36,237 - Delete of nonexisting embedding ID: open_notepad
+2025-03-29 00:29:36,680 - Vector store refreshed with 6 functions
+2025-03-29 00:29:36,680 - FunctionFinder ready!
+2025-03-29 00:29:36,745 - Received prompt: Open Notepad
+2025-03-29 00:29:41,060 - Ran open_notepad successfully
+2025-03-29 00:29:52,459 - Received prompt: Open Notepad
+2025-03-29 00:31:47,621 - Ran open_notepad successfully
+2025-03-29 00:31:47,631 - Received prompt: Open Notepad
+2025-03-29 00:31:50,105 - Ran open_notepad successfully
+2025-03-29 00:36:55,111 - Received prompt: Get CPU usage
+2025-03-29 00:36:57,977 - Ran open_notepad successfully
+2025-03-29 00:38:11,951 - Setting up FunctionFinder...
+2025-03-29 00:38:11,951 - Use pytorch device_name: cpu
+2025-03-29 00:38:11,951 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-29 00:38:16,708 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-29 00:38:17,005 - Refreshing vector store...
+2025-03-29 00:38:17,055 - Delete of nonexisting embedding ID: run_shell_command
+2025-03-29 00:38:17,055 - Delete of nonexisting embedding ID: open_notepad
+2025-03-29 00:38:17,239 - Vector store refreshed with 6 functions
+2025-03-29 00:38:17,239 - FunctionFinder ready!
+2025-03-29 00:38:18,502 - Received prompt: Get CPU usage
+2025-03-29 00:38:18,560 - Ran get_cpu_usage successfully
+2025-03-29 11:36:40,430 - Setting up FunctionFinder...
+2025-03-29 11:36:40,441 - Use pytorch device_name: cpu
+2025-03-29 11:36:40,441 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-29 11:36:45,437 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-29 11:36:45,758 - Refreshing vector store...
+2025-03-29 11:36:45,798 - Delete of nonexisting embedding ID: run_shell_command
+2025-03-29 11:36:45,798 - Delete of nonexisting embedding ID: open_notepad
+2025-03-29 11:36:46,234 - Vector store refreshed with 6 functions
+2025-03-29 11:36:46,234 - FunctionFinder ready!
+2025-03-29 11:44:15,224 - Setting up FunctionFinder...
+2025-03-29 11:44:15,228 - Use pytorch device_name: cpu
+2025-03-29 11:44:15,228 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-29 11:44:20,332 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-29 11:44:20,642 - Refreshing vector store...
+2025-03-29 11:44:20,712 - Delete of nonexisting embedding ID: run_shell_command
+2025-03-29 11:44:20,712 - Delete of nonexisting embedding ID: open_notepad
+2025-03-29 11:44:20,904 - Vector store refreshed with 6 functions
+2025-03-29 11:44:20,904 - FunctionFinder ready!
+2025-03-29 11:44:39,173 - Setting up FunctionFinder...
+2025-03-29 11:44:39,181 - Use pytorch device_name: cpu
+2025-03-29 11:44:39,181 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-29 11:44:43,285 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-29 11:44:43,567 - Refreshing vector store...
+2025-03-29 11:44:43,607 - Delete of nonexisting embedding ID: run_shell_command
+2025-03-29 11:44:43,607 - Delete of nonexisting embedding ID: open_notepad
+2025-03-29 11:44:43,871 - Vector store refreshed with 6 functions
+2025-03-29 11:44:43,871 - FunctionFinder ready!
+2025-03-29 11:45:02,481 - Refreshing vector store...
+2025-03-29 11:45:02,491 - Delete of nonexisting embedding ID: say_hello
+2025-03-29 11:45:02,491 - Delete of nonexisting embedding ID: say_hello
+2025-03-29 11:45:02,652 - Vector store refreshed with 7 functions
+2025-03-29 11:45:02,652 - Added custom function: say_hello
+2025-03-29 11:45:53,844 - Received prompt: Say hello
+2025-03-29 11:45:53,940 - Ran say_hello successfully
+2025-03-29 11:58:27,866 - Received prompt: cpu usage
+2025-03-29 11:58:27,912 - Ran get_cpu_usage successfully
