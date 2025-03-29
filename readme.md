@@ -16,6 +16,5 @@ A Python-based API service that uses LLM + RAG (Retrieval-Augmented Generation) 
 
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/automation-api.git
-   cd automation-api
+   git clone https://github.com/ShivamKhunger/Function-Execution-API.git
    
