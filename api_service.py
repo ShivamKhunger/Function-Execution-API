@@ -92,7 +92,6 @@ async def add_function(new_func: NewFunctionRequest):
         if hasattr(AutomationTools, new_func.name):
             raise HTTPException(status_code=400, detail="Function name already exists")
         
-        # Define the custom function with safe namespace
         def custom_func(self):
             return eval(new_func.code, {"os": os, "subprocess": subprocess, "psutil": psutil})
         
