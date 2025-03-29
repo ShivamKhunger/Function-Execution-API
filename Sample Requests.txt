@@ -1,0 +1,70 @@
+Sample Request #1:
+
+curl -X POST "http://127.0.0.1:8000/execute" -H "Content-Type: application/json" -d "{\"prompt\": \"Open Notepad\"}"
+
+Response:{"function":"open_notepad",
+	    "code":"from automation_functions import AutomationTools
+	            import sys
+
+			def main():    
+				try:       
+					tools = AutomationTools()
+			      	result = tools.open_notepad()
+			      	print(f\"Done! Result: {result}\")
+			      	except Exception as e:
+				      	print(f\"Oops, something went wrong: {e}\", file=sys.stderr)
+
+					if __name__ == \"__main__\":
+						main()" ,
+		"result":"Notepad opened",
+		"execution_time":2.4100756645202637,
+		"status":"success"}
+
+Sample Request #2:
+
+curl -X POST "http://127.0.0.1:8000/execute" -H "Content-Type: application/json" -d "{\"prompt\": \"Get CPU usage\"}"
+
+Response:{"function":"get_cpu_usage",
+	    "code":"from automation_functions import AutomationTools
+			import sys
+
+			def main():
+		      	try:        
+					tools = AutomationTools()        
+					result = tools.get_cpu_usage()
+				      print(f\"Done! Result: {result}\")
+			      except Exception as e:
+				      print(f\"Oops, something went wrong: {e}\", file=sys.stderr)
+
+				if __name__ == \"__main__\":
+				    	main()",
+		"result":"CPU is at 8.7%",
+		"execution_time":0.0,
+		"status":"success"}
+
+Sample Request #3:
+
+curl -X POST "http://127.0.0.1:8000/add_function" -H "Content-Type: application/json" -d "{\"name\": \"say_hello\", \"description\": \"Says hello\", \"code\": \"'Hello, world!'\"}"
+
+Response: {"status":"Function added successfully"}
+
+Follow Up Request:
+curl -X POST "http://127.0.0.1:8000/execute" -H "Content-Type: application/json" -d "{\"prompt\": \"Say hello\"}"
+
+Response: {"function":"say_hello",
+		"code":"from automation_functions import AutomationTools
+			  import sys
+
+			  def main():
+		        	   	try:
+						tools = AutomationTools()
+				            result = tools.say_hello()
+				            print(f\"Done! Result: {result}\")
+				      except Exception as e:
+			    	            print(f\"Oops, something went wrong: {e}\", file=sys.stderr)
+					
+			  if __name__ == \"__main__\":
+			  	  main()",
+		"result":"Hello, world!",
+		"execution_time":0.0,
+		"status":"success"}
